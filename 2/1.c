@@ -4,7 +4,7 @@
 
 
 int main (int argc, char **argv){
-		FILE *fp = fopen("/home/Pacco/adventOfCode2018/december/2/data", "r");
+		FILE *fp = fopen("data.txt", "r");
 		if(fp == NULL){
 			printf("RIP\n");
 			return -1;
